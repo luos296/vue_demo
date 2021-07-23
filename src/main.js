@@ -5,7 +5,7 @@ import router from './router'
 import api from './api/api'
 
 Vue.config.productionTip = false
-Vue.prototype.$api=api
+Vue.prototype.$api = api
 
 new Vue({
   vuetify,
