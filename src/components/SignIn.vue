@@ -34,6 +34,7 @@ export default {
                 console.log(res)
                 localStorage.setItem("token", res.data.data.token)
                 localStorage.setItem("userName", this.userName)
+                this.$router.push({ name: "Case" })
             })
         },
     },
